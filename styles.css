@@ -82,6 +82,46 @@ img {
     height: 250px;
 }
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 300px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.title-two {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-content {
+    height: 180px;
+    width: 180px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.card-description {
+    width: 180px;
+}
+
 ul {
     list-style-type: none;
     color: #F9FAF8;
