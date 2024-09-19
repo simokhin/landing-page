@@ -122,6 +122,24 @@ img {
     width: 180px;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 450px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 23px;
+    font-weight: 700;
+}
+
 ul {
     list-style-type: none;
     color: #F9FAF8;
