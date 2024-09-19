@@ -140,6 +140,34 @@ img {
     font-weight: 700;
 }
 
+.section-four {
+    padding: 100px 300px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-call {
+    color:#F9FAF8;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.description-call {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.button-2 {
+    background-color: #3882F6;
+    border: 2px solid white;
+}
+
 ul {
     list-style-type: none;
     color: #F9FAF8;
