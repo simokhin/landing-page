@@ -168,6 +168,11 @@ img {
     border: 2px solid white;
 }
 
+.button-2:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
 .footer {
     padding: 50px 300px;
     background-color: #1F2937;
