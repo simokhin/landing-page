@@ -168,6 +168,15 @@ img {
     border: 2px solid white;
 }
 
+.footer {
+    padding: 50px 300px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
     list-style-type: none;
     color: #F9FAF8;
