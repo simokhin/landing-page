@@ -4,6 +4,7 @@
 
 .first-page {
     height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 }
 
 .header-logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #F9FAF8;
 }
@@ -51,7 +52,7 @@ nav li {
 a.nav-link {
     color: #E5E7EB;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 a.nav-link:hover {
@@ -90,16 +91,23 @@ a.nav-link:hover {
 .hero-title {
     height: 50%;
     width: 60%;
+    
+}
+
+.hero-title h1 {
     color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 
 .hero-description {
-    color: #E5E7EB;
-    font-size: 18px;
     width: 70%;
     height: 30%;
+}
+
+.hero-description p {
+    color: #E5E7EB;
+    font-size: 1.1rem;
 }
 
 .button {
@@ -147,9 +155,143 @@ button:hover {
 
 .placeholder > p {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .section-two {
-    height: 40%;
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two-content {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-two {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.card-content {
+    width: 80%;
+    height: 60%;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.card-content:hover {
+    background-color: #3881f650;
+    cursor: pointer;
+}
+
+.card-description {
+    width: 80%;
+    text-align: center;
+}
+
+.card-description > p {
+    color: #1F2937;
+}
+
+.second-page {
+    width: 100vw;
+}
+
+.quote-main {
+    margin-top: 4rem;
+    width: 100vw;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-size: 1.4rem;
+    align-self: flex-end;
+    padding-right: 3rem;
+}
+
+
+@media (max-width:1024px){
+    .header {
+        width: 80%;
+    }
+
+    .hero-content {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-two-content {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-title h1 {
+        color: #F9FAF8;
+        font-weight: 900;
+    }
+
+    .hero-description p {
+        color: #E5E7EB;
+        font-size: 0.9rem;
+    }
+
+    a.nav-link {
+        color: #E5E7EB;
+        text-decoration: none;
+    }
+
+    .card-description p {
+        font-size: 0.7rem;
+    }
 }
