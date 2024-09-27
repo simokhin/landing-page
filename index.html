@@ -91,5 +91,14 @@
         </div>
     </div>
     <footer>Copyright © The Odin Project 2021</footer>
+
+    <script>
+        const placeholder = document.querySelector(".placeholder")
+
+        placeholder.addEventListener("click", (e) => {
+            placeholder.textContent = "why are you clicking?";
+            placeholder.style.color = "white";
+        });
+    </script>
 </body>
 </html>
