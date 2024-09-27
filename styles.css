@@ -16,7 +16,7 @@ header {
 
 .header {
     height: 100%;
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +30,8 @@ header {
 
 .header-logo:hover {
     opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 0.1s;
 }
 
 a.header-link {
@@ -47,18 +49,105 @@ nav li {
 }
 
 a.nav-link {
-    color: #F9FAF8;
+    color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
 }
 
 a.nav-link:hover {
     opacity: 0.9;
+    transition: all 0.1s;
 }
 
 .hero {
     height: 50%;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-side-content {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    height: 50%;
+    width: 60%;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-description {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 70%;
+    height: 30%;
+}
+
+.button {
+    display: flex;
+    height: 20%;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: #E5E7EB;
+    height: 70%;
+    width: 20%;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all 0.05s;
+}
+
+.right-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.placeholder {
+    width: 100%;
+    height: 60%;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder:hover {
+    opacity: 0.9;
+    transition: all 0.1s;
+}
+
+.placeholder > p {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .section-two {
